@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.goodboy.scoreboardswap.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ScoreboardHudMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

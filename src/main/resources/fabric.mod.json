@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "scoreboardswap",
+  "version": "${version}",
+  "name": "ScoreboardSwap",
+  "description": "Replace scoreboard text client-side with a keybind-accessible GUI.",
+  "authors": ["Goodboy"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.goodboy.scoreboardswap.ScoreboardSwapClient"
+    ]
+  },
+  "mixins": [
+    "scoreboardswap.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11"
+  }
+}
